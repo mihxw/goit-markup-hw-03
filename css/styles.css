@@ -1,0 +1,197 @@
+:root {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+  --color-slate: #434455;
+  --color-white: #FFFFFF;
+  --color-logo: #4d5ae5;
+  --color-logo-span: #2e2f42;
+  --color-background-section: #F4F4FD;
+  --color-footer-bg: #2e2f42;
+  --color-footer-text: #F4F4FD;
+  --color-footer-logo: #4d5ae5;
+}
+
+body {
+  font-family: var(--font-roboto);
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+
+.features-heading,
+.team-heading,
+.portfolio-heading {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-section,
+.team-heading,
+.team-list {
+  background-color: #F4F4FD;
+}
+
+.features-item,
+.team-member,
+.portfolio-item {
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+}
+
+.features-item-heading,
+.team-member-name,
+.portfolio-item-heading {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features-item-paragraph,
+.team-member-role,
+.portfolio-item-paragraph {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.menu-body {
+  font-family: var(--font-roboto);
+}
+
+
+
+.page-nav {
+  justify-content: space-between;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5
+}
+
+.header-logo-text {
+  color: var(--color-logo-span);
+}
+
+.footer-logo-text {
+  color: var(--color-footer-text);
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+}
+
+.main-section {
+  background-color: #2e2f42;
+}
+
+.head-solution {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.menu-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+  color: #404bbf;
+  /* Змінює колір тексту при наведенні мишкою */
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+/* Стилі для посилання з класом .contact-link */
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  /* Додаємо, щоб уникнути підкреслення посилання */
+}
+
+/* Стилі при наведенні миші на посилання */
+.contact-link:hover {
+  color: #404bbf;
+}
+
+/* Стилі при фокусі на посилання */
+.contact-link:focus {
+  color: #404bbf;
+  outline: none;
+  /* Прибрати стандартне обведення при фокусі */
+}
+
+.order-service-btn {
+  background-color: #4D5AE5;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: #404BBF;
+}
+
+.footer {
+  background-color: var(--color-footer-bg);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-description {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-footer-text);
+}
+
