@@ -205,13 +205,17 @@ body {
    Features Section Styles
 ---------------------------------------------- */
 .features-section {
+  display: flex;
+  gap: 0;
   padding: 120px 0;
-  margin: 25px;
 }
 
 .features-list {
+  width: 1128px;
   display: flex;
-  gap: 24px;
+  flex-direction: row;
+  gap: 25px;
+  padding: 0;
 }
 
 .features-list li {
@@ -230,7 +234,7 @@ body {
 }
 
 .features-item {
-  margin-bottom: 20px;
+  margin-bottom: 0;
   background-color: var(--color-white);
   width: calc((100% - 72px) / 4);
 }
