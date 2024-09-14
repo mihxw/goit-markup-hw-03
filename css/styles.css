@@ -70,7 +70,17 @@ body {
 }
 
 
-.features-heading,
+.features-heading {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .team-heading {
   font-family: var(--font-roboto);
   font-weight: 700;
@@ -80,6 +90,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-heading {
