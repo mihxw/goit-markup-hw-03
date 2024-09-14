@@ -228,9 +228,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
 
 .footer-description {
   font-family: var(--font-roboto);
