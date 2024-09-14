@@ -11,6 +11,41 @@
   --color-footer-logo: #4d5ae5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.header-container {
+  display: flex;
+  padding: 0 15px 0 15px;
+}
+
 body {
   font-family: var(--font-roboto);
   color: var(--color-slate);
@@ -76,6 +111,9 @@ body {
 }
 
 .footer-logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px; 
@@ -84,6 +122,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5
 }
+
 
 .header-logo-text {
   color: var(--color-logo-span);
@@ -94,8 +133,12 @@ body {
 }
 
 .menu {
-  list-style: none;
-  margin: 0;
+  display: flex;
+  column-gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
+  margin-right: 332px;
 }
 
 .main-section {
@@ -132,8 +175,11 @@ body {
   /* Змінює колір тексту при наведенні мишкою */
 }
 
-.contact-info {
-  font-style: normal;
+.contacts {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* Стилі для посилання з класом .contact-link */
