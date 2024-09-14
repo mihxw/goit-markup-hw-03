@@ -247,17 +247,14 @@ body {
   padding-bottom: 24px;
 }
 
-/* Стилі для посилання з класом .contact-link */
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  /* Додаємо, щоб уникнути підкреслення посилання */
 }
 
-/* Стилі при наведенні миші на посилання */
 .contact-link:hover {
   color: #404bbf;
 }
