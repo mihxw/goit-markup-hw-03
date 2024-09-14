@@ -121,10 +121,10 @@ body {
 
 .team-member {
   background-color: #FFFFFF;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
-  width: 264px;
   height: 380px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .for-members {
@@ -145,7 +145,7 @@ body {
   letter-spacing: 0.02em;
   color: #2E2F42;
   padding-top: 32px;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 
 .team-member-name {
