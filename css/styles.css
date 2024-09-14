@@ -147,7 +147,7 @@ body {
 ---------------------------------------------- */
 .main-section {
   padding: 188px 0;
-  background-color: var(--color-logo);
+  background-color: #2E2F42;
 }
 
 .head-solution {
@@ -284,6 +284,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+}
+
+.portfolio-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E2F42;
+  margin-bottom: 72px;
 }
 
 /* ----------------------------------------------
