@@ -45,6 +45,7 @@ img {
 
 address {
   font-style: normal;
+  margin-left: auto;
 }
 
 body {
@@ -73,15 +74,12 @@ body {
 
 .header-container {
   display: flex;
-  flex-direction: row;
-  gap: 5px;
-  padding: 0px 15px;
+  align-items: center;
 }
 
 .page-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .footer-logo {
@@ -108,10 +106,7 @@ body {
 .menu {
   display: flex;
   column-gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .menu-item {
@@ -124,6 +119,7 @@ body {
 .menu-link {
   text-decoration: none;
   color: var(--color-logo-span);
+  display: block;
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
@@ -139,8 +135,6 @@ body {
 .contacts {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contact-link {
@@ -149,6 +143,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
   text-decoration: none;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contact-link:hover,
@@ -205,20 +202,16 @@ body {
    Features Section Styles
 ---------------------------------------------- */
 .features-section {
-  display: flex;
-  gap: 0;
   padding: 120px 0;
 }
 
 .features-list {
   display: flex;
-  flex-direction: row;
-  gap: 25px;
-  padding: 0;
+  gap: 24px;
 }
 
 .features-list li {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .features-heading {
@@ -233,7 +226,6 @@ body {
 }
 
 .features-item {
-  margin-bottom: 0;
   background-color: var(--color-white);
   width: calc((100% - 72px) / 4);
 }
@@ -278,12 +270,10 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  height: 130px;
 }
 
 .portfolio-item {
   width: calc((100% - 47.99px) / 3);
-  height: 420px;
   margin-bottom: 0;
   background-color: var(--color-white);
 }
@@ -295,8 +285,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-logo-span);
-  margin-bottom: 8px;
-  width: 325px;
 }
 
 .portfolio-item-paragraph {
@@ -306,8 +294,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  margin-bottom: 8px;
-  width: 325px;
 }
 
 .portfolio-heading {
@@ -326,9 +312,6 @@ body {
 ---------------------------------------------- */
 .team-section {
   background-color: var(--color-background-section);
-  font-weight: 1440px;
-  height: 780px;
-  width: 1440;
   padding: 120px 0;
 }
 
@@ -347,16 +330,11 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-left: auto;
-  padding-right: auto;
-  height: 380px;
 }
 
 .team-member {
   background-color: var(--color-white);
   border-radius: 0px 0px 4px 4px;
-  padding: 0px 0px 32px 0px;
-  height: 380px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -380,7 +358,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -413,8 +390,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-footer-text);
-  width: 264px;
-  height: 112px;
 }
 
 /* ----------------------------------------------
